@@ -1,0 +1,53 @@
+/*  ALL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* MAIN */
+
+main {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formuContainer {
+    color: black;
+    border: 6px outset #000000;
+    border-radius: 25px;
+    box-shadow: 8px 15px 21px 7px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 8px 15px 21px 7px rgba(0,0,0,0.43); 
+    background-color: rgba(255, 255, 255, 0.787);
+    width: 280px;
+    padding: 100px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+label {
+    padding:  15px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
